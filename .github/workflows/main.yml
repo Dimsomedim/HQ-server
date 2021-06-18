@@ -1,0 +1,11 @@
+name: Digital Ocean Deploy App
+  # You may pin to the exact commit or the version.
+  # uses: jjst/action-digitalocean-deploy-app@fbfb521ba901cdc60fa1a5f7774a756efbce087e
+  uses: jjst/action-digitalocean-deploy-app@v2
+  with:
+    # A DigitalOcean personal access token
+    token: 
+    # Path of the spec file to deploy
+    spec: # optional, default is ./deploy/app.yaml
+    # ID of the app to update
+    app-id: # optional
