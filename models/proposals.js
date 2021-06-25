@@ -10,6 +10,7 @@ const getAllProposals = async () => {
     data = await proposals
       .find({})
       .project({ choices: 0, votes: 0, strategies: 0, space: 0 })
+      .sort({ end: -1 })
       .toArray();
   } catch (err) {
     console.log(err);
