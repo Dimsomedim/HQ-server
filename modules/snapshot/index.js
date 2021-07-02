@@ -75,9 +75,10 @@ const grabScores = async (voters, snapshotBlock) => {
       voters,
       snapshotBlock
     );
+    // console.log("scores");
     return scores;
   } catch (err) {
-    return new Error("Couldn't get Scores");
+    return new Error("Couldn't get Scores " + err.message);
   }
 };
 
