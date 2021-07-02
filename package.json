@@ -11,10 +11,10 @@
   "author": "Dimitri Golecko",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "2.3.0"
+    "prettier": "2.3.2"
   },
   "dependencies": {
-    "@snapshot-labs/snapshot.js": "^0.1.9",
+    "@snapshot-labs/snapshot.js": "^0.1.11",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
