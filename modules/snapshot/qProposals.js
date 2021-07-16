@@ -4,7 +4,7 @@ query {
     first: 200,
     skip: 0,
     where: {
-      space_in: ["mstable"],
+      space_in: ["mstablegovernance.eth"],
       state: "closed"
     },
     orderBy: "created",

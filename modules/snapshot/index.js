@@ -52,7 +52,7 @@ const grabScores = async (voters, snapshotBlock) => {
   // const voters = ["0xE76Be9C1e10910d6Bc6b63D8031729747910c2f6"];
   // const snapshotBlock = 12495884;
 
-  const space = "mstable";
+  const space = "mstablegovernance.eth";
   const strategies = [
     {
       name: "erc20-balance-of",
